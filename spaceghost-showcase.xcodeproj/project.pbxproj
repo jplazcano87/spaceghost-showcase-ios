@@ -16,6 +16,8 @@
 		01A35D901C7E932D00FFAC22 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01A35D8C1C7E932D00FFAC22 /* NotoSans-Italic.ttf */; };
 		01A35D911C7E932D00FFAC22 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01A35D8D1C7E932D00FFAC22 /* NotoSans-BoldItalic.ttf */; };
 		01A35D921C7E932D00FFAC22 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01A35D8E1C7E932D00FFAC22 /* NotoSans-Bold.ttf */; };
+		01A35D941C7E969A00FFAC22 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A35D931C7E969A00FFAC22 /* MaterialView.swift */; };
+		01A35D971C7E96F800FFAC22 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A35D961C7E96F800FFAC22 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		01A35D8C1C7E932D00FFAC22 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
 		01A35D8D1C7E932D00FFAC22 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		01A35D8E1C7E932D00FFAC22 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		01A35D931C7E969A00FFAC22 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		01A35D961C7E96F800FFAC22 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		01A35D741C7E91C000FFAC22 /* spaceghost-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				01A35D951C7E96DD00FFAC22 /* Util */,
 				01A35D8A1C7E92F800FFAC22 /* Resources */,
 				01A35D891C7E92E300FFAC22 /* Controller */,
 				01A35D881C7E92D600FFAC22 /* View */,
@@ -86,6 +91,7 @@
 		01A35D881C7E92D600FFAC22 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				01A35D931C7E969A00FFAC22 /* MaterialView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -106,6 +112,14 @@
 				01A35D8E1C7E932D00FFAC22 /* NotoSans-Bold.ttf */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		01A35D951C7E96DD00FFAC22 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				01A35D961C7E96F800FFAC22 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +197,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A35D941C7E969A00FFAC22 /* MaterialView.swift in Sources */,
 				01A35D781C7E91C000FFAC22 /* ViewController.swift in Sources */,
 				01A35D761C7E91C000FFAC22 /* AppDelegate.swift in Sources */,
+				01A35D971C7E96F800FFAC22 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
