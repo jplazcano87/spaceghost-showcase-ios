@@ -12,6 +12,10 @@
 		01A35D7B1C7E91C000FFAC22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A35D791C7E91C000FFAC22 /* Main.storyboard */; };
 		01A35D7D1C7E91C000FFAC22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A35D7C1C7E91C000FFAC22 /* Assets.xcassets */; };
 		01A35D801C7E91C000FFAC22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A35D7E1C7E91C000FFAC22 /* LaunchScreen.storyboard */; };
+		01A35D8F1C7E932D00FFAC22 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01A35D8B1C7E932D00FFAC22 /* NotoSans-Regular.ttf */; };
+		01A35D901C7E932D00FFAC22 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01A35D8C1C7E932D00FFAC22 /* NotoSans-Italic.ttf */; };
+		01A35D911C7E932D00FFAC22 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01A35D8D1C7E932D00FFAC22 /* NotoSans-BoldItalic.ttf */; };
+		01A35D921C7E932D00FFAC22 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01A35D8E1C7E932D00FFAC22 /* NotoSans-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		01A35D7C1C7E91C000FFAC22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01A35D7F1C7E91C000FFAC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01A35D811C7E91C000FFAC22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01A35D8B1C7E932D00FFAC22 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		01A35D8C1C7E932D00FFAC22 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		01A35D8D1C7E932D00FFAC22 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		01A35D8E1C7E932D00FFAC22 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		01A35D741C7E91C000FFAC22 /* spaceghost-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				01A35D8A1C7E92F800FFAC22 /* Resources */,
+				01A35D891C7E92E300FFAC22 /* Controller */,
+				01A35D881C7E92D600FFAC22 /* View */,
+				01A35D871C7E92CB00FFAC22 /* Model */,
 				01A35D751C7E91C000FFAC22 /* AppDelegate.swift */,
 				01A35D771C7E91C000FFAC22 /* ViewController.swift */,
 				01A35D791C7E91C000FFAC22 /* Main.storyboard */,
@@ -62,6 +74,38 @@
 				01A35D811C7E91C000FFAC22 /* Info.plist */,
 			);
 			path = "spaceghost-showcase";
+			sourceTree = "<group>";
+		};
+		01A35D871C7E92CB00FFAC22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		01A35D881C7E92D600FFAC22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		01A35D891C7E92E300FFAC22 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		01A35D8A1C7E92F800FFAC22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01A35D8B1C7E932D00FFAC22 /* NotoSans-Regular.ttf */,
+				01A35D8C1C7E932D00FFAC22 /* NotoSans-Italic.ttf */,
+				01A35D8D1C7E932D00FFAC22 /* NotoSans-BoldItalic.ttf */,
+				01A35D8E1C7E932D00FFAC22 /* NotoSans-Bold.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +166,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A35D911C7E932D00FFAC22 /* NotoSans-BoldItalic.ttf in Resources */,
+				01A35D901C7E932D00FFAC22 /* NotoSans-Italic.ttf in Resources */,
+				01A35D8F1C7E932D00FFAC22 /* NotoSans-Regular.ttf in Resources */,
+				01A35D921C7E932D00FFAC22 /* NotoSans-Bold.ttf in Resources */,
 				01A35D801C7E91C000FFAC22 /* LaunchScreen.storyboard in Resources */,
 				01A35D7D1C7E91C000FFAC22 /* Assets.xcassets in Resources */,
 				01A35D7B1C7E91C000FFAC22 /* Main.storyboard in Resources */,
