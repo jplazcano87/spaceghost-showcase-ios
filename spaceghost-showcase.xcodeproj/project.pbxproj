@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018CA47C1C7FF3DA004327DB /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018CA47B1C7FF3DA004327DB /* MaterialButton.swift */; };
+		018CA47E1C7FF62E004327DB /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018CA47D1C7FF62E004327DB /* MaterialTextField.swift */; };
 		01A35D761C7E91C000FFAC22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A35D751C7E91C000FFAC22 /* AppDelegate.swift */; };
 		01A35D781C7E91C000FFAC22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A35D771C7E91C000FFAC22 /* ViewController.swift */; };
 		01A35D7B1C7E91C000FFAC22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A35D791C7E91C000FFAC22 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		018CA47B1C7FF3DA004327DB /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		018CA47D1C7FF62E004327DB /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 		01A35D721C7E91C000FFAC22 /* spaceghost-showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spaceghost-showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A35D751C7E91C000FFAC22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01A35D771C7E91C000FFAC22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				01A35D931C7E969A00FFAC22 /* MaterialView.swift */,
+				018CA47B1C7FF3DA004327DB /* MaterialButton.swift */,
+				018CA47D1C7FF62E004327DB /* MaterialTextField.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -197,10 +203,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018CA47E1C7FF62E004327DB /* MaterialTextField.swift in Sources */,
 				01A35D941C7E969A00FFAC22 /* MaterialView.swift in Sources */,
 				01A35D781C7E91C000FFAC22 /* ViewController.swift in Sources */,
 				01A35D761C7E91C000FFAC22 /* AppDelegate.swift in Sources */,
 				01A35D971C7E96F800FFAC22 /* Constants.swift in Sources */,
+				018CA47C1C7FF3DA004327DB /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +356,7 @@
 				01A35D861C7E91C000FFAC22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
